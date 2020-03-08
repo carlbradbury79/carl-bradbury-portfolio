@@ -1,0 +1,6 @@
+.burger .burger-lines,
+.burger .burger-lines:after,
+.burger .burger-lines:before {
+  background-color: var(--dark-accent);
+  font-size: 18px;
+}

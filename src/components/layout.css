@@ -1,4 +1,4 @@
-html {
+/* html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -619,4 +619,24 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+} */
+
+:root {
+  --light-shades: #f8f6f6;
+  --light-accent: #8fdee8;
+  --main-brand-color: #c3a155;
+  --dark-accent: #b68d65;
+  --dark-shades: #496481;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--dark-shades);
+  color: var(--light-shades);
 }
