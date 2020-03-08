@@ -8,9 +8,9 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import OverlayMenu from "./nav/OverlayMenu"
+// import OverlayMenu from "./nav/OverlayMenu"
 
-import Header from "./header"
+// import Header from "./header"
 import "./layout.css"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
